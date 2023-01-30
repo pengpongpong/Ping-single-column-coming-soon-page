@@ -2,6 +2,7 @@ import React from "react";
 
 function Outro({ copyright, facebook, twitter, instagram }) {
   return (
+    // social links
     <footer className="outro">
       <ul className="socials">
         <li>

@@ -9,11 +9,13 @@ function Introduction() {
   const onSubmit = async (e) => {
     e.preventDefault();
 
+    // email regex
     const validEmail =
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     const email = emailInput.current.value;
 
+    // email valid check
     if (!email.match(validEmail)) {
       emailInput.current.style.border = "1px solid hsl(354, 100%, 66%)";
       res_message.current.style.color = "hsl(354, 100%, 66%)";
@@ -31,6 +33,7 @@ function Introduction() {
           }),
         });
 
+        // show response message if response is ok
         if (!res.ok) {
           console.error(res.status);
         } else {
