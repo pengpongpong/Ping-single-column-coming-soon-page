@@ -41,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/pengpongpong/Ping-single-column-coming-soon-page)
-- Live Site URL: [Add live site URL here](https://pengpongpong.github.io/Ping-single-column-coming-soon-page/)
+- Live Site URL: [Add live site URL here](https://ping-single-column-coming-soon-page-beta.vercel.app/)
 
 ## My process
 
